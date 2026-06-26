@@ -8,7 +8,7 @@
 [![Beginner](https://img.shields.io/badge/Beginner-6_labs-238636?style=flat-square&labelColor=1a3020)](./beginner/)
 [![Intermediate](https://img.shields.io/badge/Intermediate-5_labs-9a6700?style=flat-square&labelColor=201a10)](./intermediate/)
 [![Pro](https://img.shields.io/badge/Pro-5_labs-b91c1c?style=flat-square&labelColor=201010)](./pro/)
-[![CI](https://img.shields.io/github/actions/workflow/status/SenukDias/github-docker-lab/lab-validator.yml?style=flat-square&label=Lab+Validator&logo=githubactions&logoColor=white)](https://github.com/SenukDias/github-docker-lab/actions)
+[![CI](https://img.shields.io/github/actions/workflow/status/SenukDias/github-lab/lab-validator.yml?style=flat-square&label=Lab+Validator&logo=githubactions&logoColor=white)](https://github.com/SenukDias/github-lab/actions)
 
 </div>
 
@@ -387,7 +387,7 @@ You've read the theory. Now it's time to **do the work**.
 ## 📂 Full Lab Structure
 
 ```
-github-docker-lab/
+github-lab/
 │
 ├── 🟢 beginner/
 │   ├── lab-01-installation.md        Install Git & GitHub CLI (all OS)
@@ -539,6 +539,7 @@ chmod +x .git/hooks/pre-commit         # Activate a hook
 
 <div align="center">
 
-*Made for the GitHub & Docker Technical Session · Learn by doing · Star ⭐ if this helped you*
+*Made for the GitHub & Git Technical Session · Learn by doing · Star ⭐ if this helped you*
 
 </div>
+
