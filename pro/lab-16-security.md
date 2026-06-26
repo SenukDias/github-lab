@@ -1,5 +1,37 @@
 # 🔴 Lab 16 — Security & Access Control
 
+
+---
+
+<div align="center">
+
+[![← Prev](https://img.shields.io/badge/←_Advanced_Actions-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-15-advanced-actions.md)
+[![Pro_Index](https://img.shields.io/badge/Pro_Index-e05030?style=for-the-badge&logo=git&logoColor=white)](README.md)
+
+</div>
+
+---
+
+<div align="center">
+
+**Jump to section:**
+
+[![Branch_Protection_Rules](https://img.shields.io/badge/Branch_Protection_Rules-F05032?style=flat-square&logo=git&logoColor=white)](#branch-protection-rules)
+[![CODEOWNERS_File](https://img.shields.io/badge/CODEOWNERS_File-F05032?style=flat-square&logo=git&logoColor=white)](#codeowners-file)
+[![Secrets_Management](https://img.shields.io/badge/Secrets_Management-F05032?style=flat-square&logo=git&logoColor=white)](#secrets-management)
+[![Secret_Scanning_%26_Push_Pro](https://img.shields.io/badge/Secret_Scanning_%26_Push_Pro-F05032?style=flat-square&logo=git&logoColor=white)](#secret-scanning-push-protection)
+[![Dependabot_Automated_Securit](https://img.shields.io/badge/Dependabot_Automated_Securit-F05032?style=flat-square&logo=git&logoColor=white)](#dependabot-automated-security-updates)
+[![Security_Policy](https://img.shields.io/badge/Security_Policy-F05032?style=flat-square&logo=git&logoColor=white)](#security-policy)
+[![Supported_Versions](https://img.shields.io/badge/Supported_Versions-F05032?style=flat-square&logo=git&logoColor=white)](#supported-versions)
+[![Reporting_a_Vulnerability](https://img.shields.io/badge/Reporting_a_Vulnerability-F05032?style=flat-square&logo=git&logoColor=white)](#reporting-a-vulnerability)
+[![Environment_Protection_Rules](https://img.shields.io/badge/Environment_Protection_Rules-F05032?style=flat-square&logo=git&logoColor=white)](#environment-protection-rules)
+[![Audit_Logs](https://img.shields.io/badge/Audit_Logs-F05032?style=flat-square&logo=git&logoColor=white)](#audit-logs)
+[![Lab_Task](https://img.shields.io/badge/Lab_Task-F05032?style=flat-square&logo=git&logoColor=white)](#lab-task)
+[![Pro_Track_Complete](https://img.shields.io/badge/Pro_Track_Complete-F05032?style=flat-square&logo=git&logoColor=white)](#pro-track-complete)
+
+</div>
+
+---
 > **Goal:** Lock down your repositories with branch protection, secret scanning, and security policies.
 
 ---
@@ -324,3 +356,11 @@ You've mastered:
 ---
 
 ➡️ **[View All Tasks →](../tasks/)**
+---
+
+<div align="center">
+
+[![← Prev](https://img.shields.io/badge/←_Advanced_Actions-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-15-advanced-actions.md)
+[![Pro_Index](https://img.shields.io/badge/Pro_Index-e05030?style=for-the-badge&logo=git&logoColor=white)](README.md)
+
+</div>

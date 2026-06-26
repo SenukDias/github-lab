@@ -1,5 +1,35 @@
 # 🟢 Lab 02 — Configuring Git Identity
 
+
+---
+
+<div align="center">
+
+[![← Prev](https://img.shields.io/badge/←_Installation-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-01-installation.md)
+[![Beginner_Index](https://img.shields.io/badge/Beginner_Index-e05030?style=for-the-badge&logo=git&logoColor=white)](README.md)
+[![Next →](https://img.shields.io/badge/GitHub_Login_→-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-03-github-login.md)
+
+</div>
+
+---
+
+<div align="center">
+
+**Jump to section:**
+
+[![Why_Configure_Git](https://img.shields.io/badge/Why_Configure_Git-F05032?style=flat-square&logo=git&logoColor=white)](#why-configure-git)
+[![Part_1_Set_Global_Identity](https://img.shields.io/badge/Part_1_Set_Global_Identity-F05032?style=flat-square&logo=git&logoColor=white)](#part-1-set-global-identity)
+[![Part_2_Set_Default_Branch_Na](https://img.shields.io/badge/Part_2_Set_Default_Branch_Na-F05032?style=flat-square&logo=git&logoColor=white)](#part-2-set-default-branch-name)
+[![Part_3_Set_Your_Default_Edit](https://img.shields.io/badge/Part_3_Set_Your_Default_Edit-F05032?style=flat-square&logo=git&logoColor=white)](#part-3-set-your-default-editor)
+[![Part_4_Useful_Config_Tweaks](https://img.shields.io/badge/Part_4_Useful_Config_Tweaks-F05032?style=flat-square&logo=git&logoColor=white)](#part-4-useful-config-tweaks)
+[![View_Your_Configuration](https://img.shields.io/badge/View_Your_Configuration-F05032?style=flat-square&logo=git&logoColor=white)](#view-your-configuration)
+[![Where_is_the_Config_File](https://img.shields.io/badge/Where_is_the_Config_File-F05032?style=flat-square&logo=git&logoColor=white)](#where-is-the-config-file)
+[![Local_vs_Global_Config](https://img.shields.io/badge/Local_vs_Global_Config-F05032?style=flat-square&logo=git&logoColor=white)](#local-vs-global-config)
+[![Lab_Task](https://img.shields.io/badge/Lab_Task-F05032?style=flat-square&logo=git&logoColor=white)](#lab-task)
+
+</div>
+
+---
 > **Goal:** Set up your Git identity so every commit is properly attributed to you.
 
 ---
@@ -164,7 +194,12 @@ type %USERPROFILE%\.gitconfig  # Windows CMD
 ```
 
 ✅ **Check:** Your name and email appear in the output.
-
 ---
 
-➡️ **[Next: Lab 03 — GitHub Authentication →](./lab-03-github-login.md)**
+<div align="center">
+
+[![← Prev](https://img.shields.io/badge/←_Installation-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-01-installation.md)
+[![Beginner_Index](https://img.shields.io/badge/Beginner_Index-e05030?style=for-the-badge&logo=git&logoColor=white)](README.md)
+[![Next →](https://img.shields.io/badge/GitHub_Login_→-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-03-github-login.md)
+
+</div>

@@ -1,5 +1,32 @@
 # 🟡 Lab 08 — Merging & Rebasing
 
+
+---
+
+<div align="center">
+
+[![← Prev](https://img.shields.io/badge/←_Branching-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-07-branching.md)
+[![Intermediate_Index](https://img.shields.io/badge/Intermediate_Index-e05030?style=for-the-badge&logo=git&logoColor=white)](README.md)
+[![Next →](https://img.shields.io/badge/Pull_Requests_→-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-09-pull-requests.md)
+
+</div>
+
+---
+
+<div align="center">
+
+**Jump to section:**
+
+[![Merge_vs_Rebase_The_Core_Dif](https://img.shields.io/badge/Merge_vs_Rebase_The_Core_Dif-F05032?style=flat-square&logo=git&logoColor=white)](#merge-vs-rebase-the-core-difference)
+[![Merging](https://img.shields.io/badge/Merging-F05032?style=flat-square&logo=git&logoColor=white)](#merging)
+[![Rebasing](https://img.shields.io/badge/Rebasing-F05032?style=flat-square&logo=git&logoColor=white)](#rebasing)
+[![Resolving_Merge_Conflicts](https://img.shields.io/badge/Resolving_Merge_Conflicts-F05032?style=flat-square&logo=git&logoColor=white)](#resolving-merge-conflicts)
+[![Squash_Merging_Clean_History](https://img.shields.io/badge/Squash_Merging_Clean_History-F05032?style=flat-square&logo=git&logoColor=white)](#squash-merging-clean-history)
+[![Lab_Task](https://img.shields.io/badge/Lab_Task-F05032?style=flat-square&logo=git&logoColor=white)](#lab-task)
+
+</div>
+
+---
 > **Goal:** Understand merge vs rebase and resolve conflicts like a pro.
 
 ---
@@ -189,7 +216,12 @@ git log --oneline --graph --all
 ```
 
 ✅ **Check:** Log shows a merge commit with both branch histories visible.
-
 ---
 
-➡️ **[Next: Lab 09 — Pull Requests →](./lab-09-pull-requests.md)**
+<div align="center">
+
+[![← Prev](https://img.shields.io/badge/←_Branching-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-07-branching.md)
+[![Intermediate_Index](https://img.shields.io/badge/Intermediate_Index-e05030?style=for-the-badge&logo=git&logoColor=white)](README.md)
+[![Next →](https://img.shields.io/badge/Pull_Requests_→-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-09-pull-requests.md)
+
+</div>

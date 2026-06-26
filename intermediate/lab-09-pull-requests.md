@@ -1,5 +1,39 @@
 # 🟡 Lab 09 — Pull Requests & Code Review
 
+
+---
+
+<div align="center">
+
+[![← Prev](https://img.shields.io/badge/←_Merging_%26_Rebasing-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-08-merging-rebasing.md)
+[![Intermediate_Index](https://img.shields.io/badge/Intermediate_Index-e05030?style=for-the-badge&logo=git&logoColor=white)](README.md)
+[![Next →](https://img.shields.io/badge/Collaboration_→-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-10-collaboration.md)
+
+</div>
+
+---
+
+<div align="center">
+
+**Jump to section:**
+
+[![What_is_a_Pull_Request](https://img.shields.io/badge/What_is_a_Pull_Request-F05032?style=flat-square&logo=git&logoColor=white)](#what-is-a-pull-request)
+[![Creating_a_Pull_Request](https://img.shields.io/badge/Creating_a_Pull_Request-F05032?style=flat-square&logo=git&logoColor=white)](#creating-a-pull-request)
+[![Reviewing_Pull_Requests](https://img.shields.io/badge/Reviewing_Pull_Requests-F05032?style=flat-square&logo=git&logoColor=white)](#reviewing-pull-requests)
+[![Merging_Pull_Requests](https://img.shields.io/badge/Merging_Pull_Requests-F05032?style=flat-square&logo=git&logoColor=white)](#merging-pull-requests)
+[![PR_Labels_Milestones_%26_Ass](https://img.shields.io/badge/PR_Labels_Milestones_%26_Ass-F05032?style=flat-square&logo=git&logoColor=white)](#pr-labels-milestones-assignments)
+[![PR_Comments_%26_Discussions](https://img.shields.io/badge/PR_Comments_%26_Discussions-F05032?style=flat-square&logo=git&logoColor=white)](#pr-comments-discussions)
+[![PR_Best_Practices](https://img.shields.io/badge/PR_Best_Practices-F05032?style=flat-square&logo=git&logoColor=white)](#pr-best-practices)
+[![What_does_this_PR_do](https://img.shields.io/badge/What_does_this_PR_do-F05032?style=flat-square&logo=git&logoColor=white)](#what-does-this-pr-do)
+[![How_to_test](https://img.shields.io/badge/How_to_test-F05032?style=flat-square&logo=git&logoColor=white)](#how-to-test)
+[![Screenshots_if_UI_changes](https://img.shields.io/badge/Screenshots_if_UI_changes-F05032?style=flat-square&logo=git&logoColor=white)](#screenshots-if-ui-changes)
+[![Checklist](https://img.shields.io/badge/Checklist-F05032?style=flat-square&logo=git&logoColor=white)](#checklist)
+[![Branch_Protection_Rules_via_](https://img.shields.io/badge/Branch_Protection_Rules_via_-F05032?style=flat-square&logo=git&logoColor=white)](#branch-protection-rules-via-cli)
+[![Lab_Task](https://img.shields.io/badge/Lab_Task-F05032?style=flat-square&logo=git&logoColor=white)](#lab-task)
+
+</div>
+
+---
 > **Goal:** Open, review, and manage Pull Requests using both the web and `gh` CLI.
 
 ---
@@ -215,7 +249,12 @@ git log --oneline -5
 ```
 
 ✅ **Check:** `git log` on main shows your squash-merged commit.
-
 ---
 
-➡️ **[Next: Lab 10 — Collaboration & Forking →](./lab-10-collaboration.md)**
+<div align="center">
+
+[![← Prev](https://img.shields.io/badge/←_Merging_%26_Rebasing-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-08-merging-rebasing.md)
+[![Intermediate_Index](https://img.shields.io/badge/Intermediate_Index-e05030?style=for-the-badge&logo=git&logoColor=white)](README.md)
+[![Next →](https://img.shields.io/badge/Collaboration_→-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-10-collaboration.md)
+
+</div>

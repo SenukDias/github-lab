@@ -1,5 +1,33 @@
 # 🟢 Lab 01 — Installing Git & GitHub CLI
 
+
+---
+
+<div align="center">
+
+[![Beginner_Index](https://img.shields.io/badge/Beginner_Index-e05030?style=for-the-badge&logo=git&logoColor=white)](README.md)
+[![Next →](https://img.shields.io/badge/Configuration_→-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-02-configuration.md)
+
+</div>
+
+---
+
+<div align="center">
+
+**Jump to section:**
+
+[![What_is_Git_vs_GitHub](https://img.shields.io/badge/What_is_Git_vs_GitHub-F05032?style=flat-square&logo=git&logoColor=white)](#what-is-git-vs-github)
+[![Part_1_Install_Git](https://img.shields.io/badge/Part_1_Install_Git-F05032?style=flat-square&logo=git&logoColor=white)](#part-1-install-git)
+[![Verify_Git_Installation](https://img.shields.io/badge/Verify_Git_Installation-F05032?style=flat-square&logo=git&logoColor=white)](#verify-git-installation)
+[![Part_2_Install_GitHub_CLI_gh](https://img.shields.io/badge/Part_2_Install_GitHub_CLI_gh-F05032?style=flat-square&logo=git&logoColor=white)](#part-2-install-github-cli-gh)
+[![Verify_gh_Installation](https://img.shields.io/badge/Verify_gh_Installation-F05032?style=flat-square&logo=git&logoColor=white)](#verify-gh-installation)
+[![Understanding_the_Tools](https://img.shields.io/badge/Understanding_the_Tools-F05032?style=flat-square&logo=git&logoColor=white)](#understanding-the-tools)
+[![Lab_Task](https://img.shields.io/badge/Lab_Task-F05032?style=flat-square&logo=git&logoColor=white)](#lab-task)
+[![Troubleshooting](https://img.shields.io/badge/Troubleshooting-F05032?style=flat-square&logo=git&logoColor=white)](#troubleshooting)
+
+</div>
+
+---
 > **Goal:** Get Git and the `gh` CLI installed and verified on your machine.
 
 ---
@@ -162,7 +190,11 @@ Expected results:
 | `git: command not found` | Restart terminal after install |
 | `gh: command not found` | Add gh to PATH, restart terminal |
 | Windows: PATH not updated | Add `C:\Program Files\Git\bin` to System PATH |
-
 ---
 
-➡️ **[Next: Lab 02 — Configuring Git →](./lab-02-configuration.md)**
+<div align="center">
+
+[![Beginner_Index](https://img.shields.io/badge/Beginner_Index-e05030?style=for-the-badge&logo=git&logoColor=white)](README.md)
+[![Next →](https://img.shields.io/badge/Configuration_→-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-02-configuration.md)
+
+</div>

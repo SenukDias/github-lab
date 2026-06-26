@@ -1,5 +1,33 @@
 # 🔴 Lab 13 — GitHub CLI Power Usage
 
+
+---
+
+<div align="center">
+
+[![← Prev](https://img.shields.io/badge/←_Advanced_Git-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-12-advanced-git.md)
+[![Pro_Index](https://img.shields.io/badge/Pro_Index-e05030?style=for-the-badge&logo=git&logoColor=white)](README.md)
+[![Next →](https://img.shields.io/badge/Git_Hooks_→-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-14-git-hooks.md)
+
+</div>
+
+---
+
+<div align="center">
+
+**Jump to section:**
+
+[![gh_CLI_Architecture](https://img.shields.io/badge/gh_CLI_Architecture-F05032?style=flat-square&logo=git&logoColor=white)](#gh-cli-architecture)
+[![GitHub_API_with_gh_api](https://img.shields.io/badge/GitHub_API_with_gh_api-F05032?style=flat-square&logo=git&logoColor=white)](#github-api-with-gh-api)
+[![Releases_%26_Tags](https://img.shields.io/badge/Releases_%26_Tags-F05032?style=flat-square&logo=git&logoColor=white)](#releases-tags)
+[![Advanced_Search_%26_Filterin](https://img.shields.io/badge/Advanced_Search_%26_Filterin-F05032?style=flat-square&logo=git&logoColor=white)](#advanced-search-filtering)
+[![Scripting_with_gh_CLI](https://img.shields.io/badge/Scripting_with_gh_CLI-F05032?style=flat-square&logo=git&logoColor=white)](#scripting-with-gh-cli)
+[![gh_CLI_Extensions](https://img.shields.io/badge/gh_CLI_Extensions-F05032?style=flat-square&logo=git&logoColor=white)](#gh-cli-extensions)
+[![Lab_Task](https://img.shields.io/badge/Lab_Task-F05032?style=flat-square&logo=git&logoColor=white)](#lab-task)
+
+</div>
+
+---
 > **Goal:** Use `gh` CLI for scripting, automation, and complex GitHub workflows.
 
 ---
@@ -243,7 +271,12 @@ gh api --paginate graphql -f query='
 ```
 
 ✅ **Check:** You have a release `v0.1.0` visible in `gh release list`.
-
 ---
 
-➡️ **[Next: Lab 14 — Git Hooks →](./lab-14-git-hooks.md)**
+<div align="center">
+
+[![← Prev](https://img.shields.io/badge/←_Advanced_Git-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-12-advanced-git.md)
+[![Pro_Index](https://img.shields.io/badge/Pro_Index-e05030?style=for-the-badge&logo=git&logoColor=white)](README.md)
+[![Next →](https://img.shields.io/badge/Git_Hooks_→-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-14-git-hooks.md)
+
+</div>

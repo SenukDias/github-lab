@@ -1,5 +1,31 @@
 # 🔴 Lab 15 — Advanced GitHub Actions: Full CI/CD Pipeline
 
+
+---
+
+<div align="center">
+
+[![← Prev](https://img.shields.io/badge/←_Git_Hooks-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-14-git-hooks.md)
+[![Pro_Index](https://img.shields.io/badge/Pro_Index-e05030?style=for-the-badge&logo=git&logoColor=white)](README.md)
+[![Next →](https://img.shields.io/badge/Security_→-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-16-security.md)
+
+</div>
+
+---
+
+<div align="center">
+
+**Jump to section:**
+
+[![Pipeline_Architecture](https://img.shields.io/badge/Pipeline_Architecture-F05032?style=flat-square&logo=git&logoColor=white)](#pipeline-architecture)
+[![Complete_Python_CICD_Workflo](https://img.shields.io/badge/Complete_Python_CICD_Workflo-F05032?style=flat-square&logo=git&logoColor=white)](#complete-python-cicd-workflow)
+[![Reusable_Workflows](https://img.shields.io/badge/Reusable_Workflows-F05032?style=flat-square&logo=git&logoColor=white)](#reusable-workflows)
+[![Caching_Dependencies](https://img.shields.io/badge/Caching_Dependencies-F05032?style=flat-square&logo=git&logoColor=white)](#caching-dependencies)
+[![Lab_Task](https://img.shields.io/badge/Lab_Task-F05032?style=flat-square&logo=git&logoColor=white)](#lab-task)
+
+</div>
+
+---
 > **Goal:** Build a production-grade CI/CD pipeline with caching, artifacts, environments, and deployment.
 
 ---
@@ -346,7 +372,12 @@ gh run watch
 ```
 
 ✅ **Check:** Workflow summary shows all lab counts in the GitHub Actions UI.
-
 ---
 
-➡️ **[Next: Lab 16 — Security & Access Control →](./lab-16-security.md)**
+<div align="center">
+
+[![← Prev](https://img.shields.io/badge/←_Git_Hooks-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-14-git-hooks.md)
+[![Pro_Index](https://img.shields.io/badge/Pro_Index-e05030?style=for-the-badge&logo=git&logoColor=white)](README.md)
+[![Next →](https://img.shields.io/badge/Security_→-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-16-security.md)
+
+</div>

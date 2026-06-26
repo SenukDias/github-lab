@@ -1,5 +1,35 @@
 # 🟢 Lab 06 — The .gitignore File
 
+
+---
+
+<div align="center">
+
+[![← Prev](https://img.shields.io/badge/←_Basic_Commands-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-05-basic-commands.md)
+[![Beginner_Index](https://img.shields.io/badge/Beginner_Index-e05030?style=for-the-badge&logo=git&logoColor=white)](README.md)
+[![Next →](https://img.shields.io/badge/Branching_→-F05032?style=for-the-badge&logo=git&logoColor=white)](../intermediate/lab-07-branching.md)
+
+</div>
+
+---
+
+<div align="center">
+
+**Jump to section:**
+
+[![Why_Do_We_Need_.gitignore](https://img.shields.io/badge/Why_Do_We_Need_.gitignore-F05032?style=flat-square&logo=git&logoColor=white)](#why-do-we-need-gitignore)
+[![Basic_.gitignore_Syntax](https://img.shields.io/badge/Basic_.gitignore_Syntax-F05032?style=flat-square&logo=git&logoColor=white)](#basic-gitignore-syntax)
+[![Quick_Start_Generate_a_.giti](https://img.shields.io/badge/Quick_Start_Generate_a_.giti-F05032?style=flat-square&logo=git&logoColor=white)](#quick-start-generate-a-gitignore)
+[![Common_.gitignore_Templates](https://img.shields.io/badge/Common_.gitignore_Templates-F05032?style=flat-square&logo=git&logoColor=white)](#common-gitignore-templates)
+[![Managing_Ignored_Files](https://img.shields.io/badge/Managing_Ignored_Files-F05032?style=flat-square&logo=git&logoColor=white)](#managing-ignored-files)
+[![Removing_Already-Tracked_Fil](https://img.shields.io/badge/Removing_Already-Tracked_Fil-F05032?style=flat-square&logo=git&logoColor=white)](#removing-already-tracked-files)
+[![Types_of_.gitignore_Files](https://img.shields.io/badge/Types_of_.gitignore_Files-F05032?style=flat-square&logo=git&logoColor=white)](#types-of-gitignore-files)
+[![Lab_Task](https://img.shields.io/badge/Lab_Task-F05032?style=flat-square&logo=git&logoColor=white)](#lab-task)
+[![Beginner_Track_Complete](https://img.shields.io/badge/Beginner_Track_Complete-F05032?style=flat-square&logo=git&logoColor=white)](#beginner-track-complete)
+
+</div>
+
+---
 > **Goal:** Learn to control which files Git tracks — and which it ignores forever.
 
 ---
@@ -246,7 +276,12 @@ You now know how to:
 - ✅ Create and clone repos
 - ✅ Add, commit, push, pull
 - ✅ Write a proper .gitignore
-
 ---
 
-➡️ **[Next Level: Intermediate Labs →](../intermediate/)**
+<div align="center">
+
+[![← Prev](https://img.shields.io/badge/←_Basic_Commands-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-05-basic-commands.md)
+[![Beginner_Index](https://img.shields.io/badge/Beginner_Index-e05030?style=for-the-badge&logo=git&logoColor=white)](README.md)
+[![Next →](https://img.shields.io/badge/Branching_→-F05032?style=for-the-badge&logo=git&logoColor=white)](../intermediate/lab-07-branching.md)
+
+</div>

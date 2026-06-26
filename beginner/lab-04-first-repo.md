@@ -1,5 +1,35 @@
 # 🟢 Lab 04 — Creating Your First Repository
 
+
+---
+
+<div align="center">
+
+[![← Prev](https://img.shields.io/badge/←_GitHub_Login-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-03-github-login.md)
+[![Beginner_Index](https://img.shields.io/badge/Beginner_Index-e05030?style=for-the-badge&logo=git&logoColor=white)](README.md)
+[![Next →](https://img.shields.io/badge/Basic_Commands_→-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-05-basic-commands.md)
+
+</div>
+
+---
+
+<div align="center">
+
+**Jump to section:**
+
+[![What_is_a_Repository](https://img.shields.io/badge/What_is_a_Repository-F05032?style=flat-square&logo=git&logoColor=white)](#what-is-a-repository)
+[![Method_1_Create_via_GitHub_W](https://img.shields.io/badge/Method_1_Create_via_GitHub_W-F05032?style=flat-square&logo=git&logoColor=white)](#method-1-create-via-github-website)
+[![Method_2_Create_via_gh_CLI_R](https://img.shields.io/badge/Method_2_Create_via_gh_CLI_R-F05032?style=flat-square&logo=git&logoColor=white)](#method-2-create-via-gh-cli-recommended)
+[![Cloning_a_Repository](https://img.shields.io/badge/Cloning_a_Repository-F05032?style=flat-square&logo=git&logoColor=white)](#cloning-a-repository)
+[![Initialize_a_Local_Repo](https://img.shields.io/badge/Initialize_a_Local_Repo-F05032?style=flat-square&logo=git&logoColor=white)](#initialize-a-local-repo)
+[![Connecting_Local_to_Remote](https://img.shields.io/badge/Connecting_Local_to_Remote-F05032?style=flat-square&logo=git&logoColor=white)](#connecting-local-to-remote)
+[![Your_First_Push](https://img.shields.io/badge/Your_First_Push-F05032?style=flat-square&logo=git&logoColor=white)](#your-first-push)
+[![Useful_Repository_Commands](https://img.shields.io/badge/Useful_Repository_Commands-F05032?style=flat-square&logo=git&logoColor=white)](#useful-repository-commands)
+[![Lab_Task](https://img.shields.io/badge/Lab_Task-F05032?style=flat-square&logo=git&logoColor=white)](#lab-task)
+
+</div>
+
+---
 > **Goal:** Create a GitHub repository using both the web UI and the `gh` CLI, then connect it locally.
 
 ---
@@ -177,7 +207,12 @@ gh repo view --web
 ```
 
 ✅ **Check:** Your repo appears on github.com with all 3 files.
-
 ---
 
-➡️ **[Next: Lab 05 — Essential Git Commands →](./lab-05-basic-commands.md)**
+<div align="center">
+
+[![← Prev](https://img.shields.io/badge/←_GitHub_Login-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-03-github-login.md)
+[![Beginner_Index](https://img.shields.io/badge/Beginner_Index-e05030?style=for-the-badge&logo=git&logoColor=white)](README.md)
+[![Next →](https://img.shields.io/badge/Basic_Commands_→-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-05-basic-commands.md)
+
+</div>

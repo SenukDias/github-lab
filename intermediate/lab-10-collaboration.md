@@ -1,5 +1,34 @@
 # 🟡 Lab 10 — Collaboration & Forking
 
+
+---
+
+<div align="center">
+
+[![← Prev](https://img.shields.io/badge/←_Pull_Requests-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-09-pull-requests.md)
+[![Intermediate_Index](https://img.shields.io/badge/Intermediate_Index-e05030?style=for-the-badge&logo=git&logoColor=white)](README.md)
+[![Next →](https://img.shields.io/badge/GitHub_Actions_→-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-11-github-actions.md)
+
+</div>
+
+---
+
+<div align="center">
+
+**Jump to section:**
+
+[![Fork_vs_Clone](https://img.shields.io/badge/Fork_vs_Clone-F05032?style=flat-square&logo=git&logoColor=white)](#fork-vs-clone)
+[![Forking_a_Repository](https://img.shields.io/badge/Forking_a_Repository-F05032?style=flat-square&logo=git&logoColor=white)](#forking-a-repository)
+[![Staying_in_Sync_with_Upstrea](https://img.shields.io/badge/Staying_in_Sync_with_Upstrea-F05032?style=flat-square&logo=git&logoColor=white)](#staying-in-sync-with-upstream)
+[![Team_Collaboration_Workflow](https://img.shields.io/badge/Team_Collaboration_Workflow-F05032?style=flat-square&logo=git&logoColor=white)](#team-collaboration-workflow)
+[![Watching_%26_Starring_Repos](https://img.shields.io/badge/Watching_%26_Starring_Repos-F05032?style=flat-square&logo=git&logoColor=white)](#watching-starring-repos)
+[![GitHub_Issues_in_Collaborati](https://img.shields.io/badge/GitHub_Issues_in_Collaborati-F05032?style=flat-square&logo=git&logoColor=white)](#github-issues-in-collaboration)
+[![GitHub_Gists_Quick_Code_Shar](https://img.shields.io/badge/GitHub_Gists_Quick_Code_Shar-F05032?style=flat-square&logo=git&logoColor=white)](#github-gists-quick-code-sharing)
+[![Lab_Task](https://img.shields.io/badge/Lab_Task-F05032?style=flat-square&logo=git&logoColor=white)](#lab-task)
+
+</div>
+
+---
 > **Goal:** Fork repos, sync with upstream, and work effectively in teams.
 
 ---
@@ -209,7 +238,12 @@ git push
 ```
 
 ✅ **Check:** A PR appears on the upstream repo from your fork.
-
 ---
 
-➡️ **[Next: Lab 11 — GitHub Actions →](./lab-11-github-actions.md)**
+<div align="center">
+
+[![← Prev](https://img.shields.io/badge/←_Pull_Requests-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-09-pull-requests.md)
+[![Intermediate_Index](https://img.shields.io/badge/Intermediate_Index-e05030?style=for-the-badge&logo=git&logoColor=white)](README.md)
+[![Next →](https://img.shields.io/badge/GitHub_Actions_→-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-11-github-actions.md)
+
+</div>

@@ -1,5 +1,35 @@
 # 🟡 Lab 11 — GitHub Actions (CI/CD Introduction)
 
+
+---
+
+<div align="center">
+
+[![← Prev](https://img.shields.io/badge/←_Collaboration-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-10-collaboration.md)
+[![Intermediate_Index](https://img.shields.io/badge/Intermediate_Index-e05030?style=for-the-badge&logo=git&logoColor=white)](README.md)
+[![Next →](https://img.shields.io/badge/Advanced_Git_→-F05032?style=for-the-badge&logo=git&logoColor=white)](../pro/lab-12-advanced-git.md)
+
+</div>
+
+---
+
+<div align="center">
+
+**Jump to section:**
+
+[![What_is_GitHub_Actions](https://img.shields.io/badge/What_is_GitHub_Actions-F05032?style=flat-square&logo=git&logoColor=white)](#what-is-github-actions)
+[![Workflow_File_Location](https://img.shields.io/badge/Workflow_File_Location-F05032?style=flat-square&logo=git&logoColor=white)](#workflow-file-location)
+[![Your_First_Workflow](https://img.shields.io/badge/Your_First_Workflow-F05032?style=flat-square&logo=git&logoColor=white)](#your-first-workflow)
+[![CI_Workflow_Run_Tests](https://img.shields.io/badge/CI_Workflow_Run_Tests-F05032?style=flat-square&logo=git&logoColor=white)](#ci-workflow-run-tests)
+[![Using_Secrets_in_Workflows](https://img.shields.io/badge/Using_Secrets_in_Workflows-F05032?style=flat-square&logo=git&logoColor=white)](#using-secrets-in-workflows)
+[![Workflow_Triggers](https://img.shields.io/badge/Workflow_Triggers-F05032?style=flat-square&logo=git&logoColor=white)](#workflow-triggers)
+[![Managing_Workflows_via_CLI](https://img.shields.io/badge/Managing_Workflows_via_CLI-F05032?style=flat-square&logo=git&logoColor=white)](#managing-workflows-via-cli)
+[![Lab_Task](https://img.shields.io/badge/Lab_Task-F05032?style=flat-square&logo=git&logoColor=white)](#lab-task)
+[![Intermediate_Track_Complete](https://img.shields.io/badge/Intermediate_Track_Complete-F05032?style=flat-square&logo=git&logoColor=white)](#intermediate-track-complete)
+
+</div>
+
+---
 > **Goal:** Automate testing, linting, and deployment with GitHub Actions workflows.
 
 ---
@@ -300,7 +330,12 @@ You now know how to:
 - ✅ Open, review and merge Pull Requests
 - ✅ Fork repos and contribute upstream
 - ✅ Write GitHub Actions workflows
-
 ---
 
-➡️ **[Next Level: Pro Labs →](../pro/)**
+<div align="center">
+
+[![← Prev](https://img.shields.io/badge/←_Collaboration-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-10-collaboration.md)
+[![Intermediate_Index](https://img.shields.io/badge/Intermediate_Index-e05030?style=for-the-badge&logo=git&logoColor=white)](README.md)
+[![Next →](https://img.shields.io/badge/Advanced_Git_→-F05032?style=for-the-badge&logo=git&logoColor=white)](../pro/lab-12-advanced-git.md)
+
+</div>

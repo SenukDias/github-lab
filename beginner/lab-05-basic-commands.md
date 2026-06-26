@@ -1,5 +1,36 @@
 # 🟢 Lab 05 — Essential Git Commands
 
+
+---
+
+<div align="center">
+
+[![← Prev](https://img.shields.io/badge/←_First_Repo-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-04-first-repo.md)
+[![Beginner_Index](https://img.shields.io/badge/Beginner_Index-e05030?style=for-the-badge&logo=git&logoColor=white)](README.md)
+[![Next →](https://img.shields.io/badge/.gitignore_→-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-06-gitignore.md)
+
+</div>
+
+---
+
+<div align="center">
+
+**Jump to section:**
+
+[![The_Git_Lifecycle](https://img.shields.io/badge/The_Git_Lifecycle-F05032?style=flat-square&logo=git&logoColor=white)](#the-git-lifecycle)
+[![Checking_Status](https://img.shields.io/badge/Checking_Status-F05032?style=flat-square&logo=git&logoColor=white)](#checking-status)
+[![Staging_Files](https://img.shields.io/badge/Staging_Files-F05032?style=flat-square&logo=git&logoColor=white)](#staging-files)
+[![Committing](https://img.shields.io/badge/Committing-F05032?style=flat-square&logo=git&logoColor=white)](#committing)
+[![Pushing_%26_Pulling](https://img.shields.io/badge/Pushing_%26_Pulling-F05032?style=flat-square&logo=git&logoColor=white)](#pushing-pulling)
+[![Viewing_History](https://img.shields.io/badge/Viewing_History-F05032?style=flat-square&logo=git&logoColor=white)](#viewing-history)
+[![Undoing_Things](https://img.shields.io/badge/Undoing_Things-F05032?style=flat-square&logo=git&logoColor=white)](#undoing-things)
+[![Deleting_Files](https://img.shields.io/badge/Deleting_Files-F05032?style=flat-square&logo=git&logoColor=white)](#deleting-files)
+[![Stashing_Temporary_Save](https://img.shields.io/badge/Stashing_Temporary_Save-F05032?style=flat-square&logo=git&logoColor=white)](#stashing-temporary-save)
+[![Lab_Task](https://img.shields.io/badge/Lab_Task-F05032?style=flat-square&logo=git&logoColor=white)](#lab-task)
+
+</div>
+
+---
 > **Goal:** Master the core Git workflow — the commands you'll use every single day.
 
 ---
@@ -280,7 +311,12 @@ git log --oneline
 ```
 
 ✅ **Check:** Your log shows 2 commits with meaningful messages.
-
 ---
 
-➡️ **[Next: Lab 06 — The .gitignore File →](./lab-06-gitignore.md)**
+<div align="center">
+
+[![← Prev](https://img.shields.io/badge/←_First_Repo-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-04-first-repo.md)
+[![Beginner_Index](https://img.shields.io/badge/Beginner_Index-e05030?style=for-the-badge&logo=git&logoColor=white)](README.md)
+[![Next →](https://img.shields.io/badge/.gitignore_→-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-06-gitignore.md)
+
+</div>

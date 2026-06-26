@@ -1,5 +1,33 @@
 # 🟢 Lab 03 — GitHub Authentication
 
+
+---
+
+<div align="center">
+
+[![← Prev](https://img.shields.io/badge/←_Configuration-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-02-configuration.md)
+[![Beginner_Index](https://img.shields.io/badge/Beginner_Index-e05030?style=for-the-badge&logo=git&logoColor=white)](README.md)
+[![Next →](https://img.shields.io/badge/First_Repo_→-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-04-first-repo.md)
+
+</div>
+
+---
+
+<div align="center">
+
+**Jump to section:**
+
+[![Authentication_Methods_Overv](https://img.shields.io/badge/Authentication_Methods_Overv-F05032?style=flat-square&logo=git&logoColor=white)](#authentication-methods-overview)
+[![Method_1_GitHub_CLI_Login_Re](https://img.shields.io/badge/Method_1_GitHub_CLI_Login_Re-F05032?style=flat-square&logo=git&logoColor=white)](#method-1-github-cli-login-recommended-for-beginners)
+[![Method_2_Personal_Access_Tok](https://img.shields.io/badge/Method_2_Personal_Access_Tok-F05032?style=flat-square&logo=git&logoColor=white)](#method-2-personal-access-token-pat)
+[![Method_3_SSH_Key_Setup](https://img.shields.io/badge/Method_3_SSH_Key_Setup-F05032?style=flat-square&logo=git&logoColor=white)](#method-3-ssh-key-setup)
+[![Switching_Between_HTTPS_and_](https://img.shields.io/badge/Switching_Between_HTTPS_and_-F05032?style=flat-square&logo=git&logoColor=white)](#switching-between-https-and-ssh)
+[![Managing_gh_CLI_Auth](https://img.shields.io/badge/Managing_gh_CLI_Auth-F05032?style=flat-square&logo=git&logoColor=white)](#managing-gh-cli-auth)
+[![Lab_Task](https://img.shields.io/badge/Lab_Task-F05032?style=flat-square&logo=git&logoColor=white)](#lab-task)
+
+</div>
+
+---
 > **Goal:** Authenticate with GitHub using both HTTPS tokens and the `gh` CLI.
 
 ---
@@ -182,7 +210,12 @@ gh repo list --limit 5
 ```
 
 ✅ **Check:** You can see your username and repo list from the terminal.
-
 ---
 
-➡️ **[Next: Lab 04 — Creating Your First Repository →](./lab-04-first-repo.md)**
+<div align="center">
+
+[![← Prev](https://img.shields.io/badge/←_Configuration-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-02-configuration.md)
+[![Beginner_Index](https://img.shields.io/badge/Beginner_Index-e05030?style=for-the-badge&logo=git&logoColor=white)](README.md)
+[![Next →](https://img.shields.io/badge/First_Repo_→-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-04-first-repo.md)
+
+</div>

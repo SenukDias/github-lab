@@ -1,5 +1,34 @@
 # 🔴 Lab 12 — Advanced Git Techniques
 
+
+---
+
+<div align="center">
+
+[![← Prev](https://img.shields.io/badge/←_GitHub_Actions-F05032?style=for-the-badge&logo=git&logoColor=white)](../intermediate/lab-11-github-actions.md)
+[![Pro_Index](https://img.shields.io/badge/Pro_Index-e05030?style=for-the-badge&logo=git&logoColor=white)](README.md)
+[![Next →](https://img.shields.io/badge/GitHub_CLI_Pro_→-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-13-github-cli-pro.md)
+
+</div>
+
+---
+
+<div align="center">
+
+**Jump to section:**
+
+[![Cherry-Pick](https://img.shields.io/badge/Cherry-Pick-F05032?style=flat-square&logo=git&logoColor=white)](#cherry-pick)
+[![Git_Bisect_Binary_Search_for](https://img.shields.io/badge/Git_Bisect_Binary_Search_for-F05032?style=flat-square&logo=git&logoColor=white)](#git-bisect-binary-search-for-bugs)
+[![Git_Reflog_Your_Time_Machine](https://img.shields.io/badge/Git_Reflog_Your_Time_Machine-F05032?style=flat-square&logo=git&logoColor=white)](#git-reflog-your-time-machine)
+[![Git_Worktrees_Multiple_Branc](https://img.shields.io/badge/Git_Worktrees_Multiple_Branc-F05032?style=flat-square&logo=git&logoColor=white)](#git-worktrees-multiple-branches-one-repo)
+[![Interactive_Rebase_Mastery](https://img.shields.io/badge/Interactive_Rebase_Mastery-F05032?style=flat-square&logo=git&logoColor=white)](#interactive-rebase-mastery)
+[![Git_Submodules](https://img.shields.io/badge/Git_Submodules-F05032?style=flat-square&logo=git&logoColor=white)](#git-submodules)
+[![Signing_Commits_with_GPG](https://img.shields.io/badge/Signing_Commits_with_GPG-F05032?style=flat-square&logo=git&logoColor=white)](#signing-commits-with-gpg)
+[![Lab_Task](https://img.shields.io/badge/Lab_Task-F05032?style=flat-square&logo=git&logoColor=white)](#lab-task)
+
+</div>
+
+---
 > **Goal:** Master Git's power tools — cherry-pick, bisect, reflog, worktrees, and more.
 
 ---
@@ -243,7 +272,12 @@ git worktree remove ../review-branch
 ```
 
 ✅ **Check:** You recovered your commit using `reflog`.
-
 ---
 
-➡️ **[Next: Lab 13 — GitHub CLI Pro →](./lab-13-github-cli-pro.md)**
+<div align="center">
+
+[![← Prev](https://img.shields.io/badge/←_GitHub_Actions-F05032?style=for-the-badge&logo=git&logoColor=white)](../intermediate/lab-11-github-actions.md)
+[![Pro_Index](https://img.shields.io/badge/Pro_Index-e05030?style=for-the-badge&logo=git&logoColor=white)](README.md)
+[![Next →](https://img.shields.io/badge/GitHub_CLI_Pro_→-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-13-github-cli-pro.md)
+
+</div>

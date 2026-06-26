@@ -1,5 +1,34 @@
 # 🔴 Lab 14 — Git Hooks
 
+
+---
+
+<div align="center">
+
+[![← Prev](https://img.shields.io/badge/←_GitHub_CLI_Pro-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-13-github-cli-pro.md)
+[![Pro_Index](https://img.shields.io/badge/Pro_Index-e05030?style=for-the-badge&logo=git&logoColor=white)](README.md)
+[![Next →](https://img.shields.io/badge/Advanced_Actions_→-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-15-advanced-actions.md)
+
+</div>
+
+---
+
+<div align="center">
+
+**Jump to section:**
+
+[![What_are_Git_Hooks](https://img.shields.io/badge/What_are_Git_Hooks-F05032?style=flat-square&logo=git&logoColor=white)](#what-are-git-hooks)
+[![Hook_Locations](https://img.shields.io/badge/Hook_Locations-F05032?style=flat-square&logo=git&logoColor=white)](#hook-locations)
+[![pre-commit_Hook_Run_Before_E](https://img.shields.io/badge/pre-commit_Hook_Run_Before_E-F05032?style=flat-square&logo=git&logoColor=white)](#pre-commit-hook-run-before-every-commit)
+[![commit-msg_Hook_Validate_Com](https://img.shields.io/badge/commit-msg_Hook_Validate_Com-F05032?style=flat-square&logo=git&logoColor=white)](#commit-msg-hook-validate-commit-format)
+[![pre-push_Hook_Run_Before_Pus](https://img.shields.io/badge/pre-push_Hook_Run_Before_Pus-F05032?style=flat-square&logo=git&logoColor=white)](#pre-push-hook-run-before-pushing)
+[![post-merge_Hook_Auto-install](https://img.shields.io/badge/post-merge_Hook_Auto-install-F05032?style=flat-square&logo=git&logoColor=white)](#post-merge-hook-auto-install-dependencies)
+[![Sharing_Hooks_with_the_Team_](https://img.shields.io/badge/Sharing_Hooks_with_the_Team_-F05032?style=flat-square&logo=git&logoColor=white)](#sharing-hooks-with-the-team-husky-nodejs)
+[![Lab_Task](https://img.shields.io/badge/Lab_Task-F05032?style=flat-square&logo=git&logoColor=white)](#lab-task)
+
+</div>
+
+---
 > **Goal:** Automate quality gates with client-side and server-side Git hooks.
 
 ---
@@ -272,7 +301,12 @@ git checkout -- .
 ```
 
 ✅ **Check:** Bad commit messages and secret files are blocked by your hooks.
-
 ---
 
-➡️ **[Next: Lab 15 — Advanced GitHub Actions →](./lab-15-advanced-actions.md)**
+<div align="center">
+
+[![← Prev](https://img.shields.io/badge/←_GitHub_CLI_Pro-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-13-github-cli-pro.md)
+[![Pro_Index](https://img.shields.io/badge/Pro_Index-e05030?style=for-the-badge&logo=git&logoColor=white)](README.md)
+[![Next →](https://img.shields.io/badge/Advanced_Actions_→-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-15-advanced-actions.md)
+
+</div>

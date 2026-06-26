@@ -1,5 +1,33 @@
 # 🟡 Lab 07 — Branching Strategies
 
+
+---
+
+<div align="center">
+
+[![← Prev](https://img.shields.io/badge/←_.gitignore-F05032?style=for-the-badge&logo=git&logoColor=white)](../beginner/lab-06-gitignore.md)
+[![Intermediate_Index](https://img.shields.io/badge/Intermediate_Index-e05030?style=for-the-badge&logo=git&logoColor=white)](README.md)
+[![Next →](https://img.shields.io/badge/Merging_%26_Rebasing_→-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-08-merging-rebasing.md)
+
+</div>
+
+---
+
+<div align="center">
+
+**Jump to section:**
+
+[![What_is_a_Branch](https://img.shields.io/badge/What_is_a_Branch-F05032?style=flat-square&logo=git&logoColor=white)](#what-is-a-branch)
+[![Branch_Basics](https://img.shields.io/badge/Branch_Basics-F05032?style=flat-square&logo=git&logoColor=white)](#branch-basics)
+[![Branch_Naming_Conventions](https://img.shields.io/badge/Branch_Naming_Conventions-F05032?style=flat-square&logo=git&logoColor=white)](#branch-naming-conventions)
+[![Inspecting_Branches](https://img.shields.io/badge/Inspecting_Branches-F05032?style=flat-square&logo=git&logoColor=white)](#inspecting-branches)
+[![Deleting_Branches](https://img.shields.io/badge/Deleting_Branches-F05032?style=flat-square&logo=git&logoColor=white)](#deleting-branches)
+[![Popular_Branching_Strategies](https://img.shields.io/badge/Popular_Branching_Strategies-F05032?style=flat-square&logo=git&logoColor=white)](#popular-branching-strategies)
+[![Lab_Task](https://img.shields.io/badge/Lab_Task-F05032?style=flat-square&logo=git&logoColor=white)](#lab-task)
+
+</div>
+
+---
 > **Goal:** Create, switch, and manage branches — the core of team collaboration.
 
 ---
@@ -192,7 +220,12 @@ git branch --no-merged main
 ```
 
 ✅ **Check:** `git log --oneline --graph --all` shows your branch diverging from `main`.
-
 ---
 
-➡️ **[Next: Lab 08 — Merge vs Rebase →](./lab-08-merging-rebasing.md)**
+<div align="center">
+
+[![← Prev](https://img.shields.io/badge/←_.gitignore-F05032?style=for-the-badge&logo=git&logoColor=white)](../beginner/lab-06-gitignore.md)
+[![Intermediate_Index](https://img.shields.io/badge/Intermediate_Index-e05030?style=for-the-badge&logo=git&logoColor=white)](README.md)
+[![Next →](https://img.shields.io/badge/Merging_%26_Rebasing_→-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-08-merging-rebasing.md)
+
+</div>
