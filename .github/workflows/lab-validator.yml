@@ -1,0 +1,98 @@
+name: Lab Session Validator
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate-structure:
+    name: 📋 Validate Lab Structure
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check beginner labs
+        run: |
+          echo "🟢 Checking Beginner Labs..."
+          BEGINNER_LABS=(
+            "beginner/README.md"
+            "beginner/lab-01-installation.md"
+            "beginner/lab-02-configuration.md"
+            "beginner/lab-03-github-login.md"
+            "beginner/lab-04-first-repo.md"
+            "beginner/lab-05-basic-commands.md"
+            "beginner/lab-06-gitignore.md"
+          )
+          for f in "${BEGINNER_LABS[@]}"; do
+            [ -f "$f" ] && echo "  ✅ $f" || { echo "  ❌ MISSING: $f"; exit 1; }
+          done
+
+      - name: Check intermediate labs
+        run: |
+          echo "🟡 Checking Intermediate Labs..."
+          INTERMEDIATE_LABS=(
+            "intermediate/README.md"
+            "intermediate/lab-07-branching.md"
+            "intermediate/lab-08-merging-rebasing.md"
+            "intermediate/lab-09-pull-requests.md"
+            "intermediate/lab-10-collaboration.md"
+            "intermediate/lab-11-github-actions.md"
+          )
+          for f in "${INTERMEDIATE_LABS[@]}"; do
+            [ -f "$f" ] && echo "  ✅ $f" || { echo "  ❌ MISSING: $f"; exit 1; }
+          done
+
+      - name: Check pro labs
+        run: |
+          echo "🔴 Checking Pro Labs..."
+          PRO_LABS=(
+            "pro/README.md"
+            "pro/lab-12-advanced-git.md"
+            "pro/lab-13-github-cli-pro.md"
+            "pro/lab-14-git-hooks.md"
+            "pro/lab-15-advanced-actions.md"
+            "pro/lab-16-security.md"
+          )
+          for f in "${PRO_LABS[@]}"; do
+            [ -f "$f" ] && echo "  ✅ $f" || { echo "  ❌ MISSING: $f"; exit 1; }
+          done
+
+      - name: Check task files
+        run: |
+          echo "📋 Checking Task Files..."
+          TASKS=(
+            "tasks/beginner-tasks.md"
+            "tasks/intermediate-tasks.md"
+            "tasks/pro-tasks.md"
+          )
+          for f in "${TASKS[@]}"; do
+            [ -f "$f" ] && echo "  ✅ $f" || { echo "  ❌ MISSING: $f"; exit 1; }
+          done
+
+      - name: Count and summarize
+        run: |
+          BEGINNER=$(ls beginner/lab-*.md 2>/dev/null | wc -l)
+          INTERMEDIATE=$(ls intermediate/lab-*.md 2>/dev/null | wc -l)
+          PRO=$(ls pro/lab-*.md 2>/dev/null | wc -l)
+          TOTAL=$((BEGINNER + INTERMEDIATE + PRO))
+
+          echo ""
+          echo "📊 Lab Count Summary:"
+          echo "  🟢 Beginner:     $BEGINNER labs"
+          echo "  🟡 Intermediate: $INTERMEDIATE labs"
+          echo "  🔴 Pro:          $PRO labs"
+          echo "  📚 Total:        $TOTAL labs"
+
+          cat >> $GITHUB_STEP_SUMMARY << EOF
+          ## 📊 GitHub & Docker Lab Session
+
+          | Level | Labs | Status |
+          |-------|------|--------|
+          | 🟢 Beginner | $BEGINNER | ✅ Ready |
+          | 🟡 Intermediate | $INTERMEDIATE | ✅ Ready |
+          | 🔴 Pro | $PRO | ✅ Ready |
+          | **Total** | **$TOTAL** | **✅ All Validated** |
+          EOF
