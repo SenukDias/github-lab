@@ -1,115 +1,96 @@
-<svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="900" height="260">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="60%" stop-color="#161b22"/>
-      <stop offset="100%" stop-color="#1a2030"/>
+      <stop offset="100%" stop-color="#161b22"/>
     </linearGradient>
-    <linearGradient id="title" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#58a6ff"/>
-      <stop offset="45%" stop-color="#a78bfa"/>
-      <stop offset="100%" stop-color="#f472b6"/>
-    </linearGradient>
-    <linearGradient id="lineGlow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0"/>
-      <stop offset="40%" stop-color="#58a6ff" stop-opacity="0.8"/>
-      <stop offset="60%" stop-color="#a78bfa" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#f472b6" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="gBeginner" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#238636"/>
-      <stop offset="100%" stop-color="#2ea043"/>
-    </linearGradient>
-    <linearGradient id="gInter" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#9a6700"/>
-      <stop offset="100%" stop-color="#bb8009"/>
-    </linearGradient>
-    <linearGradient id="gPro" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#b91c1c"/>
-      <stop offset="100%" stop-color="#dc2626"/>
-    </linearGradient>
-    <pattern id="dots" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="12" cy="12" r="0.8" fill="#30363d" opacity="0.6"/>
-    </pattern>
-    <clipPath id="card"><rect width="900" height="260" rx="14"/></clipPath>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <!-- Official Git logo (Simple Icons, Apache 2.0) — 24x24 viewBox, #F05032 -->
+    <symbol id="git-logo" viewBox="0 0 24 24">
+      <path fill="#F05032" d="M23.546 10.93L13.067.452c-.604-.603-1.582-.603-2.188 0L8.708 2.627l2.76 2.76c.645-.215 1.379-.07 1.889.441.516.515.658 1.258.438 1.9l2.658 2.66c.645-.223 1.387-.078 1.9.435.7.7.7 1.832 0 2.532-.7.699-1.831.7-2.531 0-.539-.541-.674-1.337-.404-2.014L12.86 8.772v6.111c.148.087.293.191.425.323.7.7.7 1.832 0 2.532-.7.7-1.832.7-2.531 0-.7-.699-.7-1.831 0-2.531.134-.135.291-.239.45-.325V8.765c-.191-.088-.37-.204-.521-.355-.549-.548-.68-1.357-.39-2.038L7.086 3.622 1.456 9.254c-.604.603-.604 1.582 0 2.187l10.478 10.478c.604.604 1.583.604 2.188 0l9.416-9.416c.603-.604.603-1.582-.001-2.187"/>
+    </symbol>
+    <!-- Official GitHub mark (Simple Icons, BSD-0) — 24x24 viewBox, #fff on dark bg -->
+    <symbol id="github-logo" viewBox="0 0 24 24">
+      <path fill="#ffffff" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+    </symbol>
   </defs>
 
-  <g clip-path="url(#card)">
-    <!-- Background -->
-    <rect width="900" height="260" fill="url(#bg)"/>
-    <!-- Dot pattern -->
-    <rect width="900" height="260" fill="url(#dots)"/>
+  <!-- Background -->
+  <rect width="900" height="260" fill="url(#bg)"/>
 
-    <!-- ── LEFT: Git branch visualization ─────────────────── -->
-    <!-- Main branch line -->
-    <line x1="60" y1="30" x2="60" y2="230" stroke="#238636" stroke-width="2.5" opacity="0.7"/>
-    <!-- Main commits -->
-    <circle cx="60" cy="50"  r="7" fill="#0d1117" stroke="#238636" stroke-width="2.5"/>
-    <circle cx="60" cy="100" r="7" fill="#0d1117" stroke="#238636" stroke-width="2.5"/>
-    <circle cx="60" cy="155" r="7" fill="#238636"/>
-    <circle cx="60" cy="210" r="7" fill="#0d1117" stroke="#238636" stroke-width="2.5"/>
-    <!-- Labels beside commits -->
-    <text x="76" y="54"  font-family="'Courier New',monospace" font-size="9" fill="#3fb950" opacity="0.8">main</text>
-    <text x="76" y="104" font-family="'Courier New',monospace" font-size="9" fill="#3fb950" opacity="0.8">feat-a</text>
-    <text x="76" y="159" font-family="'Courier New',monospace" font-size="9" fill="#fff"    opacity="0.9">HEAD</text>
-    <text x="76" y="214" font-family="'Courier New',monospace" font-size="9" fill="#3fb950" opacity="0.8">merge</text>
-    <!-- Feature branch -->
-    <path d="M60,100 Q100,100 100,125 L100,168" stroke="#a78bfa" stroke-width="2" fill="none" opacity="0.7"/>
-    <path d="M100,168 Q100,195 60,195" stroke="#a78bfa" stroke-width="2" fill="none" opacity="0.7"/>
-    <circle cx="100" cy="138" r="6" fill="#0d1117" stroke="#a78bfa" stroke-width="2"/>
-    <circle cx="100" cy="168" r="6" fill="#a78bfa"/>
-    <text x="112" y="142" font-family="'Courier New',monospace" font-size="9" fill="#c4b5fd" opacity="0.8">feature</text>
-    <!-- Branch label tag -->
-    <rect x="28" y="145" width="48" height="18" rx="9" fill="#238636" opacity="0.15"/>
-    <text x="52" y="158" font-family="system-ui,sans-serif" font-size="8" font-weight="600" text-anchor="middle" fill="#3fb950">current</text>
-
-    <!-- ── CENTER: Title Block ─────────────────────────────── -->
-    <text x="472" y="92"  font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="44" font-weight="900" text-anchor="middle" fill="url(#title)" letter-spacing="-1">GitHub &amp; Git</text>
-    <text x="472" y="136" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="20" font-weight="400" text-anchor="middle" fill="#8b949e" letter-spacing="3">TECHNICAL  LAB  SESSION</text>
-
-    <!-- Divider line with glow -->
-    <line x1="200" y1="155" x2="744" y2="155" stroke="url(#lineGlow)" stroke-width="1.5"/>
-
-    <!-- Level pills -->
-    <rect x="210" y="168" width="130" height="30" rx="15" fill="url(#gBeginner)" opacity="0.9"/>
-    <text x="275" y="188" font-family="system-ui,sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#fff">🟢 Beginner</text>
-
-    <text x="350" y="188" font-family="system-ui,sans-serif" font-size="14" text-anchor="middle" fill="#58a6ff">→</text>
-
-    <rect x="363" y="168" width="166" height="30" rx="15" fill="url(#gInter)" opacity="0.9"/>
-    <text x="446" y="188" font-family="system-ui,sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#fff">🟡 Intermediate</text>
-
-    <text x="538" y="188" font-family="system-ui,sans-serif" font-size="14" text-anchor="middle" fill="#58a6ff">→</text>
-
-    <rect x="550" y="168" width="112" height="30" rx="15" fill="url(#gPro)" opacity="0.9"/>
-    <text x="606" y="188" font-family="system-ui,sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#fff">🔴 Pro</text>
-
-    <!-- Stats row -->
-    <text x="472" y="228" font-family="system-ui,sans-serif" font-size="11" text-anchor="middle" fill="#6e7681">16 Hands-on Labs  ·  3 Skill Levels  ·  6+ Hours  ·  Git, gh CLI, CI/CD, Security</text>
-
-    <!-- ── RIGHT: Terminal mockup ──────────────────────────── -->
-    <rect x="760" y="36" width="124" height="112" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <!-- Terminal header -->
-    <rect x="760" y="36" width="124" height="22" rx="8" fill="#21262d"/>
-    <rect x="760" y="46" width="124" height="12" fill="#21262d"/>
-    <circle cx="775" cy="47" r="4" fill="#ff6b6b" opacity="0.9"/>
-    <circle cx="787" cy="47" r="4" fill="#ffd93d" opacity="0.9"/>
-    <circle cx="799" cy="47" r="4" fill="#6bcb77" opacity="0.9"/>
-    <!-- Terminal content -->
-    <text x="771" y="74"  font-family="'Courier New',monospace" font-size="9.5" fill="#58a6ff">$ git init</text>
-    <text x="771" y="88"  font-family="'Courier New',monospace" font-size="9.5" fill="#7ee787">✓ Initialized</text>
-    <text x="771" y="102" font-family="'Courier New',monospace" font-size="9.5" fill="#58a6ff">$ git commit</text>
-    <text x="771" y="116" font-family="'Courier New',monospace" font-size="9.5" fill="#7ee787">✓ [main] da6e5</text>
-    <text x="771" y="130" font-family="'Courier New',monospace" font-size="9.5" fill="#58a6ff">$ gh pr create</text>
-    <text x="771" y="138" font-family="'Courier New',monospace" font-size="9.5" fill="#e6edf3" opacity="0.4">▌</text>
-
-    <!-- Glow behind terminal -->
-    <ellipse cx="822" cy="92" rx="50" ry="35" fill="#58a6ff" opacity="0.04"/>
+  <!-- Subtle grid -->
+  <g opacity="0.04" stroke="#58a6ff" stroke-width="1">
+    <line x1="0" y1="65" x2="900" y2="65"/>
+    <line x1="0" y1="130" x2="900" y2="130"/>
+    <line x1="0" y1="195" x2="900" y2="195"/>
+    <line x1="225" y1="0" x2="225" y2="260"/>
+    <line x1="450" y1="0" x2="450" y2="260"/>
+    <line x1="675" y1="0" x2="675" y2="260"/>
   </g>
 
-  <!-- Card border -->
-  <rect width="900" height="260" rx="14" fill="none" stroke="#30363d" stroke-width="1.5"/>
-  <!-- Top accent line -->
-  <line x1="200" y1="0" x2="700" y2="0" stroke="url(#lineGlow)" stroke-width="2"/>
-</svg>
+  <!-- === LEFT LOGOS === -->
+  <!-- Git logo background circle -->
+  <circle cx="62" cy="110" r="36" fill="#F05032" fill-opacity="0.15" stroke="#F05032" stroke-width="1.5"/>
+  <!-- Git official logo — 60x60 centered at (62,110) -->
+  <use href="#git-logo" x="32" y="80" width="60" height="60"/>
+  <!-- "git" label -->
+  <text x="62" y="162" text-anchor="middle" font-family="'Segoe UI',monospace,sans-serif" font-size="11" font-weight="700" fill="#F05032" letter-spacing="2">GIT</text>
 
+  <!-- GitHub logo background circle -->
+  <circle cx="148" cy="110" r="36" fill="#30363d" stroke="#8b949e" stroke-width="1.5"/>
+  <!-- GitHub official mark — 54x54 centered at (148,110) -->
+  <use href="#github-logo" x="121" y="83" width="54" height="54"/>
+  <!-- "github" label -->
+  <text x="148" y="162" text-anchor="middle" font-family="'Segoe UI',monospace,sans-serif" font-size="11" font-weight="700" fill="#8b949e" letter-spacing="2">GITHUB</text>
+
+  <!-- Connector line -->
+  <line x1="98" y1="110" x2="112" y2="110" stroke="#30363d" stroke-width="1.5" stroke-dasharray="3,2"/>
+
+  <!-- === CENTER TITLE === -->
+  <text x="470" y="72" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="34" font-weight="900" fill="#e6edf3" filter="url(#glow)">GitHub &amp; Git Lab Session</text>
+  <text x="470" y="100" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="14" fill="#8b949e">16 Hands-on Labs · 3 Skill Levels · gh CLI · GitHub Actions · Security</text>
+
+  <!-- Level pills -->
+  <rect x="298" y="118" width="110" height="26" rx="13" fill="#238636" fill-opacity="0.25" stroke="#2ea043" stroke-width="1.5"/>
+  <text x="353" y="135" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12" fill="#3fb950">🟢 Beginner</text>
+  <rect x="420" y="118" width="100" height="26" rx="13" fill="#9a6700" fill-opacity="0.25" stroke="#d29922" stroke-width="1.5"/>
+  <text x="470" y="135" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12" fill="#d29922">🟡 Mid</text>
+  <rect x="532" y="118" width="100" height="26" rx="13" fill="#da3633" fill-opacity="0.25" stroke="#f85149" stroke-width="1.5"/>
+  <text x="582" y="135" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12" fill="#f85149">🔴 Pro</text>
+
+  <!-- Stats row -->
+  <rect x="250" y="164" width="440" height="52" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="325" y="185" text-anchor="middle" font-family="sans-serif" font-size="20">🌿</text>
+  <text x="325" y="204" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="11" fill="#8b949e">Branching</text>
+  <line x1="375" y1="170" x2="375" y2="210" stroke="#30363d" stroke-width="1"/>
+  <text x="415" y="185" text-anchor="middle" font-family="sans-serif" font-size="20">🔀</text>
+  <text x="415" y="204" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="11" fill="#8b949e">Merging</text>
+  <line x1="455" y1="170" x2="455" y2="210" stroke="#30363d" stroke-width="1"/>
+  <text x="495" y="185" text-anchor="middle" font-family="sans-serif" font-size="20">⚙️</text>
+  <text x="495" y="204" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="11" fill="#8b949e">Actions</text>
+  <line x1="535" y1="170" x2="535" y2="210" stroke="#30363d" stroke-width="1"/>
+  <text x="575" y="185" text-anchor="middle" font-family="sans-serif" font-size="20">🔒</text>
+  <text x="575" y="204" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="11" fill="#8b949e">Security</text>
+  <line x1="615" y1="170" x2="615" y2="210" stroke="#30363d" stroke-width="1"/>
+  <text x="655" y="185" text-anchor="middle" font-family="sans-serif" font-size="20">🖥️</text>
+  <text x="655" y="204" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="11" fill="#8b949e">gh CLI</text>
+
+  <!-- === RIGHT TERMINAL === -->
+  <rect x="728" y="68" width="158" height="142" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+  <rect x="728" y="68" width="158" height="24" rx="8" fill="#21262d"/>
+  <circle cx="746" cy="80" r="5" fill="#ff5f57"/>
+  <circle cx="762" cy="80" r="5" fill="#febc2e"/>
+  <circle cx="778" cy="80" r="5" fill="#28c840"/>
+  <text x="810" y="83" text-anchor="middle" font-family="monospace" font-size="10" fill="#8b949e">bash</text>
+  <text x="740" y="108" font-family="monospace" font-size="9.5" fill="#F05032">$ git init</text>
+  <text x="740" y="121" font-family="monospace" font-size="9.5" fill="#3fb950">Initialized repo</text>
+  <text x="740" y="134" font-family="monospace" font-size="9.5" fill="#F05032">$ git commit</text>
+  <text x="740" y="147" font-family="monospace" font-size="9.5" fill="#3fb950">[main] feat: ...</text>
+  <text x="740" y="160" font-family="monospace" font-size="9.5" fill="#F05032">$ gh pr create</text>
+  <text x="740" y="173" font-family="monospace" font-size="9.5" fill="#8b949e">Creating PR #12</text>
+  <text x="740" y="186" font-family="monospace" font-size="9.5" fill="#F05032">$ gh run watch</text>
+  <text x="740" y="200" font-family="monospace" font-size="9.5" fill="#58a6ff">▌</text>
+</svg>

@@ -10,6 +10,12 @@
 [![Pro](https://img.shields.io/badge/Pro-5_labs-b91c1c?style=flat-square&labelColor=201010)](./pro/)
 [![CI](https://img.shields.io/github/actions/workflow/status/SenukDias/github-lab/lab-validator.yml?style=flat-square&label=Lab+Validator&logo=githubactions&logoColor=white)](https://github.com/SenukDias/github-lab/actions)
 
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
 </div>
 
 ---
