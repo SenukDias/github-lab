@@ -1,5 +1,28 @@
 # 🟢 Beginner Labs — Overview
 
+
+---
+
+<div align="center">
+
+[![← Main README](https://img.shields.io/badge/←_Main_README-e05030?style=for-the-badge&logo=git&logoColor=white)](../README.md)
+[![Start Lab 01 →](https://img.shields.io/badge/Start_Lab_01_→-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-01-installation.md)
+
+</div>
+
+---
+
+<div align="center">
+
+**Jump to section:**
+
+[![Labs_in_This_Section](https://img.shields.io/badge/Labs_in_This_Section-F05032?style=flat-square&logo=git&logoColor=white)](#labs-in-this-section)
+[![Beginner_Goals](https://img.shields.io/badge/Beginner_Goals-F05032?style=flat-square&logo=git&logoColor=white)](#beginner-goals)
+
+</div>
+
+---
+
 Welcome to the **Beginner Track**! These labs take you from zero to having your first repository on GitHub.
 
 ## Labs in This Section
@@ -24,7 +47,11 @@ By the end of these labs you will be able to:
 - [ ] Add, commit, and push files
 - [ ] Pull changes from GitHub
 - [ ] Write a proper `.gitignore`
-
 ---
 
-➡️ **[Start with Lab 01 →](./lab-01-installation.md)**
+<div align="center">
+
+[![← Main README](https://img.shields.io/badge/←_Main_README-e05030?style=for-the-badge&logo=git&logoColor=white)](../README.md)
+[![Start Lab 01 →](https://img.shields.io/badge/Start_Lab_01_→-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-01-installation.md)
+
+</div>

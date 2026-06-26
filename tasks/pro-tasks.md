@@ -1,5 +1,32 @@
 # 📋 Pro Tasks
 
+
+---
+
+<div align="center">
+
+[![← Intermediate Tasks](https://img.shields.io/badge/←_Intermediate_Tasks-e05030?style=for-the-badge&logo=git&logoColor=white)](intermediate-tasks.md)
+[![All Tasks](https://img.shields.io/badge/All_Tasks-F05032?style=for-the-badge&logo=git&logoColor=white)](../README.md#-all-labs)
+
+</div>
+
+---
+
+<div align="center">
+
+**Jump to section:**
+
+[![Task_1_Advanced_Git_Archaeol](https://img.shields.io/badge/Task_1_Advanced_Git_Archaeol-F05032?style=flat-square&logo=git&logoColor=white)](#task-1-advanced-git-archaeology)
+[![Task_2_The_Hook_Suite](https://img.shields.io/badge/Task_2_The_Hook_Suite-F05032?style=flat-square&logo=git&logoColor=white)](#task-2-the-hook-suite)
+[![Task_3_Full_CICD_Pipeline](https://img.shields.io/badge/Task_3_Full_CICD_Pipeline-F05032?style=flat-square&logo=git&logoColor=white)](#task-3-full-cicd-pipeline)
+[![Task_4_GitHub_CLI_Automation](https://img.shields.io/badge/Task_4_GitHub_CLI_Automation-F05032?style=flat-square&logo=git&logoColor=white)](#task-4-github-cli-automation-script)
+[![Task_5_Monorepo_Management](https://img.shields.io/badge/Task_5_Monorepo_Management-F05032?style=flat-square&logo=git&logoColor=white)](#task-5-monorepo-management)
+[![Final_Submission](https://img.shields.io/badge/Final_Submission-F05032?style=flat-square&logo=git&logoColor=white)](#final-submission)
+
+</div>
+
+---
+
 These tasks reflect real-world engineering challenges. No hand-holding here.
 
 ---
@@ -224,3 +251,11 @@ echo "✅ Full CI/CD Pipeline"
 echo "✅ gh CLI Automation"
 echo "✅ Security Configuration"
 ```
+---
+
+<div align="center">
+
+[![← Intermediate Tasks](https://img.shields.io/badge/←_Intermediate_Tasks-e05030?style=for-the-badge&logo=git&logoColor=white)](intermediate-tasks.md)
+[![All Tasks](https://img.shields.io/badge/All_Tasks-F05032?style=for-the-badge&logo=git&logoColor=white)](../README.md#-all-labs)
+
+</div>

@@ -1,5 +1,35 @@
 # 📋 Intermediate Tasks
 
+
+---
+
+<div align="center">
+
+[![← Beginner Tasks](https://img.shields.io/badge/←_Beginner_Tasks-e05030?style=for-the-badge&logo=git&logoColor=white)](beginner-tasks.md)
+[![All Tasks](https://img.shields.io/badge/All_Tasks-F05032?style=for-the-badge&logo=git&logoColor=white)](../README.md#-all-labs)
+[![Pro Tasks →](https://img.shields.io/badge/Pro_Tasks_→-e05030?style=for-the-badge&logo=git&logoColor=white)](pro-tasks.md)
+
+</div>
+
+---
+
+<div align="center">
+
+**Jump to section:**
+
+[![Task_1_Feature_Branch_Workfl](https://img.shields.io/badge/Task_1_Feature_Branch_Workfl-F05032?style=flat-square&logo=git&logoColor=white)](#task-1-feature-branch-workflow)
+[![Task_2_Conflict_Resolution_C](https://img.shields.io/badge/Task_2_Conflict_Resolution_C-F05032?style=flat-square&logo=git&logoColor=white)](#task-2-conflict-resolution-challenge)
+[![Task_3_GitHub_Actions_CI](https://img.shields.io/badge/Task_3_GitHub_Actions_CI-F05032?style=flat-square&logo=git&logoColor=white)](#task-3-github-actions-ci)
+[![Task_4_Issue-Driven_Developm](https://img.shields.io/badge/Task_4_Issue-Driven_Developm-F05032?style=flat-square&logo=git&logoColor=white)](#task-4-issue-driven-development)
+[![Getting_Started](https://img.shields.io/badge/Getting_Started-F05032?style=flat-square&logo=git&logoColor=white)](#getting-started)
+[![Commit_Convention](https://img.shields.io/badge/Commit_Convention-F05032?style=flat-square&logo=git&logoColor=white)](#commit-convention)
+[![Task_5_Fork_and_Upstream_Syn](https://img.shields.io/badge/Task_5_Fork_and_Upstream_Syn-F05032?style=flat-square&logo=git&logoColor=white)](#task-5-fork-and-upstream-sync-challenge)
+[![Submission](https://img.shields.io/badge/Submission-F05032?style=flat-square&logo=git&logoColor=white)](#submission)
+
+</div>
+
+---
+
 These tasks simulate real team collaboration scenarios.
 
 ---
@@ -169,3 +199,12 @@ echo ""
 echo "Workflow runs:"
 gh run list --limit 5
 ```
+---
+
+<div align="center">
+
+[![← Beginner Tasks](https://img.shields.io/badge/←_Beginner_Tasks-e05030?style=for-the-badge&logo=git&logoColor=white)](beginner-tasks.md)
+[![All Tasks](https://img.shields.io/badge/All_Tasks-F05032?style=for-the-badge&logo=git&logoColor=white)](../README.md#-all-labs)
+[![Pro Tasks →](https://img.shields.io/badge/Pro_Tasks_→-e05030?style=for-the-badge&logo=git&logoColor=white)](pro-tasks.md)
+
+</div>

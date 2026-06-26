@@ -1,5 +1,29 @@
 # 🟡 Intermediate Labs — Overview
 
+
+---
+
+<div align="center">
+
+[![← Beginner Track](https://img.shields.io/badge/←_Beginner_Track-e05030?style=for-the-badge&logo=git&logoColor=white)](../beginner/README.md)
+[![Start Lab 07 →](https://img.shields.io/badge/Start_Lab_07_→-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-07-branching.md)
+[![Pro Track →](https://img.shields.io/badge/Pro_Track_→-e05030?style=for-the-badge&logo=git&logoColor=white)](../pro/README.md)
+
+</div>
+
+---
+
+<div align="center">
+
+**Jump to section:**
+
+[![Labs_in_This_Section](https://img.shields.io/badge/Labs_in_This_Section-F05032?style=flat-square&logo=git&logoColor=white)](#labs-in-this-section)
+[![Intermediate_Goals](https://img.shields.io/badge/Intermediate_Goals-F05032?style=flat-square&logo=git&logoColor=white)](#intermediate-goals)
+
+</div>
+
+---
+
 You've got the basics. Now let's work like a **real development team**.
 
 ## Labs in This Section
@@ -21,7 +45,12 @@ By the end of these labs you will:
 - [ ] Open, review, and merge Pull Requests
 - [ ] Fork and contribute to any repository
 - [ ] Create a basic GitHub Actions workflow
-
 ---
 
-➡️ **[Start with Lab 07 →](./lab-07-branching.md)**
+<div align="center">
+
+[![← Beginner Track](https://img.shields.io/badge/←_Beginner_Track-e05030?style=for-the-badge&logo=git&logoColor=white)](../beginner/README.md)
+[![Start Lab 07 →](https://img.shields.io/badge/Start_Lab_07_→-F05032?style=for-the-badge&logo=git&logoColor=white)](lab-07-branching.md)
+[![Pro Track →](https://img.shields.io/badge/Pro_Track_→-e05030?style=for-the-badge&logo=git&logoColor=white)](../pro/README.md)
+
+</div>

@@ -1,5 +1,31 @@
 # 📋 Beginner Tasks
 
+
+---
+
+<div align="center">
+
+[![← Beginner Labs](https://img.shields.io/badge/←_Beginner_Labs-e05030?style=for-the-badge&logo=git&logoColor=white)](../beginner/README.md)
+[![All Tasks](https://img.shields.io/badge/All_Tasks-F05032?style=for-the-badge&logo=git&logoColor=white)](../README.md#-all-labs)
+[![Intermediate Tasks →](https://img.shields.io/badge/Intermediate_Tasks_→-e05030?style=for-the-badge&logo=git&logoColor=white)](intermediate-tasks.md)
+
+</div>
+
+---
+
+<div align="center">
+
+**Jump to section:**
+
+[![Task_Checklist](https://img.shields.io/badge/Task_Checklist-F05032?style=flat-square&logo=git&logoColor=white)](#task-checklist)
+[![About_Me](https://img.shields.io/badge/About_Me-F05032?style=flat-square&logo=git&logoColor=white)](#about-me)
+[![My_Stats](https://img.shields.io/badge/My_Stats-F05032?style=flat-square&logo=git&logoColor=white)](#my-stats)
+[![Submission](https://img.shields.io/badge/Submission-F05032?style=flat-square&logo=git&logoColor=white)](#submission)
+
+</div>
+
+---
+
 Complete these tasks to prove you've mastered the beginner level.
 
 ---
@@ -117,3 +143,12 @@ echo "Repos created today:"
 gh repo list --limit 10 --json name,createdAt \
   --jq '.[] | select(.createdAt > (now - 86400 | todate)) | .name'
 ```
+---
+
+<div align="center">
+
+[![← Beginner Labs](https://img.shields.io/badge/←_Beginner_Labs-e05030?style=for-the-badge&logo=git&logoColor=white)](../beginner/README.md)
+[![All Tasks](https://img.shields.io/badge/All_Tasks-F05032?style=for-the-badge&logo=git&logoColor=white)](../README.md#-all-labs)
+[![Intermediate Tasks →](https://img.shields.io/badge/Intermediate_Tasks_→-e05030?style=for-the-badge&logo=git&logoColor=white)](intermediate-tasks.md)
+
+</div>
